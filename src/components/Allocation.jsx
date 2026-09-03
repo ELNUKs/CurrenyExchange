@@ -1,0 +1,3 @@
+export default function Allocation() {
+ return <section className="panel allocation" id="portfolio"><div className="section-title"><div><p className="label">Portfolio</p><h2>Asset allocation</h2></div><button className="more" aria-label="More options">•••</button></div><div className="allocation-content"><div className="donut"><div><b>4</b><span>assets</span></div></div><ul className="legend"><li><i className="dot lime"/>Bitcoin <strong>54.8%</strong></li><li><i className="dot violet"/>Ethereum <strong>24.2%</strong></li><li><i className="dot teal"/>Solana <strong>13.7%</strong></li><li><i className="dot gray"/>Other <strong>7.3%</strong></li></ul></div></section>;
+}
